@@ -43,14 +43,14 @@ def convert_to_exchange_trading_pair(hb_trading_pair: str) -> str:
 
 KEYS = {
     "msamex_api_key":
-        ConfigVar(key="191e8b3b917164c7",
-                  prompt="Enter your Msamex API key >>> ",
+        ConfigVar(key="msamex_api_key",
+                  prompt="Enter your Binance API key >>> ",
                   required_if=using_exchange("msamex"),
                   is_secure=True,
                   is_connect_key=True),
     "msamex_api_secret":
-        ConfigVar(key="47fdab6f0017c4a9af8f6b27e9489f66",
-                  prompt="Enter your Msamex API secret >>> ",
+        ConfigVar(key="msamex_api_secret",
+                  prompt="Enter your Binance API secret >>> ",
                   required_if=using_exchange("msamex"),
                   is_secure=True,
                   is_connect_key=True),
