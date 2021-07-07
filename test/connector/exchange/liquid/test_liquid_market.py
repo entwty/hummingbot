@@ -243,7 +243,7 @@ class LiquidExchangeUnitTest(unittest.TestCase):
         self.assertEqual(order_id_1, order_created_event.order_id)
 
         # ToDo: the test from here on pass fine in real API test mode, for the API mocked we first need to fix
-        # https://github.com/CoinAlpha/hummingbot/issues/2222
+        # https://github.com/entwty/hummingbot/issues/2222
         if API_MOCK_ENABLED:
             return
         base_bal = self.market.get_available_balance(base)

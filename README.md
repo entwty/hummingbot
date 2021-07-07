@@ -2,7 +2,7 @@
 
 ----
 [![Discord](https://img.shields.io/discord/530578568154054663.svg?color=768AD4&label=discord&logo=https%3A%2F%2Fdiscordapp.com%2Fassets%2F8c9701b98ad4372b58f13fd9f65f966e.svg)](https://discord.hummingbot.io/)
-[![License](https://img.shields.io/badge/License-Apache%202.0-informational.svg)](https://github.com/CoinAlpha/hummingbot/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-informational.svg)](https://github.com/entwty/hummingbot/blob/master/LICENSE)
 [![Twitter Follow](https://img.shields.io/twitter/follow/hummingbot_io.svg?style=social&label=hummingbot)](https://twitter.com/hummingbot_io)
 
 Hummingbot is an open-source project that integrates cryptocurrency trading on both **centralized exchanges** and **decentralized protocols**. It allows users to run a client that executes customized, automated trading strategies for cryptocurrencies.
@@ -95,8 +95,8 @@ We created hummingbot to promote **decentralized market-making**: enabling membe
 ## Contributions
 
 We welcome contributions from the community:
-- **Code and documentation contributions** via [pull requests](https://github.com/CoinAlpha/hummingbot/pulls)
-- **Bug reports and feature requests** through [Github issues](https://github.com/CoinAlpha/hummingbot/issues)
+- **Code and documentation contributions** via [pull requests](https://github.com/entwty/hummingbot/pulls)
+- **Bug reports and feature requests** through [Github issues](https://github.com/entwty/hummingbot/issues)
 - When contributing, please review the [contributing guidelines](CONTRIBUTING.md)
 
 ## About us

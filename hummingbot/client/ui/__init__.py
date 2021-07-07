@@ -31,7 +31,7 @@ def show_welcome():
     =======================================================================================
 
     Version: {version}
-    Codebase: https://github.com/coinalpha/hummingbot
+    Codebase: https://github.com/entwty/hummingbot
 
 
         """.format(version=version),

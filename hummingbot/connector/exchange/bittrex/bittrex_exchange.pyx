@@ -361,7 +361,7 @@ cdef class BittrexExchange(ExchangeBase):
 
                     if self._order_not_found_records[client_order_id] < self.ORDER_NOT_EXIST_CONFIRMATION_COUNT:
                         # Wait until the order not found error have repeated for a few times before actually treating
-                        # it as a fail. See: https://github.com/CoinAlpha/hummingbot/issues/601
+                        # it as a fail. See: https://github.com/entwty/hummingbot/issues/601
                         continue
                     tracked_order.last_state = "CLOSED"
                     self.c_trigger_event(
