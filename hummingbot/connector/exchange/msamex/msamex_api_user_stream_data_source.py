@@ -18,7 +18,7 @@ from hummingbot.logger import HummingbotLogger
 
 MSAMEX_API_ENDPOINT = "https://www.msamex.{}/api/v2/"
 MSAMEX_USER_STREAM_ENDPOINT = "userDataStream"
-MSAMEX_WSS_USER_STREAM = "wss://stream.msamex.{}:9443/ws/"
+MSAMEX_WSS_USER_STREAM = "wss://stream.msamex.{}:9003/ws/"
 
 
 class MsamexAPIUserStreamDataSource(UserStreamTrackerDataSource):

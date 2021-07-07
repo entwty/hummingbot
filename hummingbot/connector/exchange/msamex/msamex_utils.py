@@ -56,21 +56,5 @@ KEYS = {
                   is_connect_key=True),
 }
 
-OTHER_DOMAINS = ["msamex_us"]
-OTHER_DOMAINS_PARAMETER = {"msamex_us": "us"}
-OTHER_DOMAINS_EXAMPLE_PAIR = {"msamex_us": "BTC-USDT"}
-OTHER_DOMAINS_DEFAULT_FEES = {"msamex_us": [0.1, 0.1]}
-OTHER_DOMAINS_KEYS = {"msamex_us": {
-    "msamex_us_api_key":
-        ConfigVar(key="msamex_us_api_key",
-                  prompt="Enter your Msamex US API key >>> ",
-                  required_if=using_exchange("msamex_us"),
-                  is_secure=True,
-                  is_connect_key=True),
-    "msamex_us_api_secret":
-        ConfigVar(key="msamex_us_api_secret",
-                  prompt="Enter your Msamex US API secret >>> ",
-                  required_if=using_exchange("msamex_us"),
-                  is_secure=True,
-                  is_connect_key=True),
-}}
+
+
