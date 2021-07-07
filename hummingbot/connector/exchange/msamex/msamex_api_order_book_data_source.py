@@ -28,10 +28,10 @@ from hummingbot.connector.exchange.msamex.msamex_utils import convert_to_exchang
 
 TRADING_PAIR_FILTER = re.compile(r"(BTC|ETH|USDT)$")
 
-SNAPSHOT_REST_URL = "https://api.msamex.{}/api/v1/depth"
+SNAPSHOT_REST_URL = "https://msamex.{}/api/v2/peatio/public/markets/market/depth"
 DIFF_STREAM_URL = "wss://stream.msamex.{}:9443/ws"
-TICKER_PRICE_CHANGE_URL = "https://api.msamex.{}/api/v1/ticker/24hr"
-EXCHANGE_INFO_URL = "https://api.msamex.{}/api/v1/exchangeInfo"
+TICKER_PRICE_CHANGE_URL = "https://msamex.{}/api/v2/peatio/public/markets/tickers"
+EXCHANGE_INFO_URL = "https://msamex.{}/api/v2/peatio/coinmarketcap/assets"
 
 
 class MsamexAPIOrderBookDataSource(OrderBookTrackerDataSource):
@@ -71,7 +71,7 @@ class MsamexAPIOrderBookDataSource(OrderBookTrackerDataSource):
     async def get_all_mid_prices(domain="com") -> Optional[Decimal]:
         from hummingbot.connector.exchange.msamex.msamex_utils import convert_from_exchange_trading_pair
         async with aiohttp.ClientSession() as client:
-            url = "https://api.msamex.{}/api/v3/ticker/bookTicker".format(domain)
+            url = "https://msamex/api/v2/ticker/{}".format(domain)
             resp = await client.get(url)
             resp_json = await resp.json()
             ret_val = {}
