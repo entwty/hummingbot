@@ -56,6 +56,9 @@ coinbase_pro_api_key = os.getenv("COINBASE_PRO_API_KEY")
 coinbase_pro_secret_key = os.getenv("COINBASE_PRO_SECRET_KEY")
 coinbase_pro_passphrase = os.getenv("COINBASE_PRO_PASSPHRASE")
 
+# Binance Tests
+msamex_api_key = os.getenv("MSAMEX_API_KEY")
+msamex_api_secret = os.getenv("MSAMEX_API_SECRET")
 
 # Huobi Tests
 huobi_api_key = os.getenv("HUOBI_API_KEY")

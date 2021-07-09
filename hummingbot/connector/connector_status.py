@@ -27,6 +27,7 @@ connector_status = {
     'k2': 'red',
     'liquid': 'green',
     'loopring': 'yellow',
+    'msamex': 'green',
     'okex': 'yellow',
     'perpetual_finance': 'yellow',
     'probit': 'yellow',
